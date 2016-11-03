@@ -1,0 +1,70 @@
+.extended_section-fieldtype {
+
+}
+
+/**
+ * Background color
+ * Based on the material [design color palette](https://material.google.com/style/color.html#color-color-palette)
+ */
+.extended_section-fieldtype.color-red {
+    background: #F44336;
+    color: white;
+}
+
+.extended_section-fieldtype.color-green {
+    background: #8BC34A;
+}
+
+.extended_section-fieldtype.color-blue {
+    background: #3F51B5;
+    color: white;
+}
+
+.extended_section-fieldtype.color-orange {
+    background: #FF9800;
+}
+
+.extended_section-fieldtype.color-pink {
+    background: #E91E63;
+    color: white;
+}
+
+.extended_section-fieldtype.color-purple {
+    background: #9C27B0;
+    color: white;
+}
+
+.extended_section-fieldtype.color-brown {
+    background: #795548;
+    color: white;
+}
+
+.extended_section-fieldtype.color-black {
+    background: #000;
+    color: white;
+}
+
+.extended_section-fieldtype.color-grey-30 {
+    background: #E0E0E0;
+}
+
+.extended_section-fieldtype.color-grey-50 {
+    background: #9E9E9E;
+}
+
+.extended_section-fieldtype.color-grey-80 {
+    background: #424242;
+    color: white;
+}
+
+/**
+ * Text color
+ */
+.extended_section-fieldtype label,
+.extended_section-fieldtype .help-block {
+    color: inherit;
+}
+
+.extended_section-fieldtype .help-block {
+    opacity: .7;
+}

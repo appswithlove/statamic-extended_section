@@ -1,0 +1,24 @@
+name: ExtendedSections
+version: 0.1
+description: Sections on steroids
+url: https://subpixel.ch
+developer: Rémy Böhler
+developer_url: https://subpixel.ch
+
+fieldtype_fields:
+  background:
+    type: select
+    default: grey
+    options:
+      grey: Light (default)
+      red: Red
+      green: Green
+      blue: Blue
+      orange: Orange
+      pink: Pink
+      purple: Purple
+      brown: Brown
+      black: Black
+      grey-30: Light grey
+      grey-50: Grey
+      grey-80: Dark grey
