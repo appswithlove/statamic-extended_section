@@ -10,7 +10,7 @@ fieldtype_fields:
     type: select
     default: grey
     options:
-      grey: Light (default)
+      grey: default
       red: Red
       green: Green
       blue: Blue
@@ -18,7 +18,10 @@ fieldtype_fields:
       pink: Pink
       purple: Purple
       brown: Brown
-      black: Black
       grey-30: Light grey
       grey-50: Grey
       grey-80: Dark grey
+      black: Black
+      carbon: Carbon
+      stripes: Grey Stripes
+      danger: Danger
