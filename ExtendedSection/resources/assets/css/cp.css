@@ -1,5 +1,10 @@
 .extended_section-fieldtype {
-
+    box-shadow: none;
+    box-shadow: inset 0 1px 0 rgba(0,0,0,0.15);
+    margin-top: 10px!important;
+}
+.extended_section-fieldtype:first-of-type{
+    margin-top: 10px!important;
 }
 
 /**
@@ -7,54 +12,48 @@
  * Based on the material [design color palette](https://material.google.com/style/color.html#color-color-palette)
  */
 .extended_section-fieldtype.color-red {
-    background: #F44336;
-    color: white;
+    background: #FFCDD2;
 }
 
 .extended_section-fieldtype.color-green {
-    background: #8BC34A;
+    background: #C8E6C9;
 }
 
 .extended_section-fieldtype.color-blue {
-    background: #3F51B5;
-    color: white;
+    background: #B3E5FC;
 }
 
 .extended_section-fieldtype.color-orange {
-    background: #FF9800;
+    background: #FFE0B2;
 }
 
 .extended_section-fieldtype.color-pink {
-    background: #E91E63;
-    color: white;
+    background: #F8BBD0;
 }
 
 .extended_section-fieldtype.color-purple {
     background: #9C27B0;
-    color: white;
 }
 
 .extended_section-fieldtype.color-brown {
-    background: #795548;
-    color: white;
+    background: #E1BEE7;
 }
 
 .extended_section-fieldtype.color-black {
-    background: #000;
+    background: #212121;
     color: white;
 }
 
 .extended_section-fieldtype.color-grey-30 {
-    background: #E0E0E0;
+    background: #EEEEEE;
 }
 
 .extended_section-fieldtype.color-grey-50 {
-    background: #9E9E9E;
+    background: #E0E0E0;
 }
 
 .extended_section-fieldtype.color-grey-80 {
-    background: #424242;
-    color: white;
+    background: #BDBDBD;
 }
 
 /**
@@ -66,5 +65,6 @@
 }
 
 .extended_section-fieldtype .help-block {
-    opacity: .7;
+    opacity: 1;
+    padding-right: 1rem;
 }
