@@ -1,4 +1,4 @@
-# Statamic extended sections
+# Statamic extended sections ![Statamic 2](https://img.shields.io/badge/statamic-2.x-blue.svg?style=flat-square)
 
 Statamic sections on steroids
 
