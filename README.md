@@ -2,6 +2,8 @@
 
 Statamic sections on steroids
 
+![Extended Section](./screenshot.png)
+
 ## Adding a new color to the addon
 
  1. **Stylesheet**  
