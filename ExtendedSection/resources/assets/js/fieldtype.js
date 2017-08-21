@@ -1,3 +1,5 @@
+/** global: Vue */
+
 Vue.component('extended_section-fieldtype', {
     props: ['data', 'config', 'name'],
 
