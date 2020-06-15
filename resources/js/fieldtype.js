@@ -1,9 +1,11 @@
 /** global: Vue */
 
-Vue.component('extended_section-fieldtype', {
+console.info('I was here');
+Statamic.$components.register('extended_section-fieldtype', {
     props: ['data', 'config', 'name'],
 
-    ready: function () {
+    mounted: function () {
+        console.log(this.config)
         // find container parent
         var container = this.$el.parentNode;
         while (!container.classList || !container.classList.contains('form-group')) {

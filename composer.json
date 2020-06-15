@@ -1,0 +1,25 @@
+{
+  "name": "appswithlove/extended-section",
+  "description": "Extended section",
+  "autoload": {
+    "psr-4": {
+      "AppsWithLove\\Statamic\\ExtendedSection\\": "src"
+    }
+  },
+  "authors": [
+    {
+      "name": "Rémy Böhler"
+    }
+  ],
+  "extra": {
+    "statamic": {
+      "name": "Extended section",
+      "description": "Fancy sections"
+    },
+    "laravel": {
+      "providers": [
+        "AppsWithLove\\Statamic\\ExtendedSection\\ServiceProvider"
+      ]
+    }
+  }
+}

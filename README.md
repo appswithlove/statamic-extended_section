@@ -12,5 +12,5 @@ Statamic sections on steroids
  1. **Stylesheet**  
     Open `resources/assets/css/cp.css` and add the new background style.
 
- 2. **Update the fieldset configuration**  
-    Open `meta.yaml` and append the new color to the background options.
+ 2. **Update the fieldtype configuration**  
+    Open `src/Fieldtypes/ExtendedSectionFieldtype.php` and append the new color to the background options.
