@@ -14,3 +14,20 @@ Statamic sections on steroids
 
  2. **Update the fieldtype configuration**  
     Open `src/Fieldtypes/ExtendedSectionFieldtype.php` and append the new color to the background options.
+
+## Install
+ 1. Add repository to composer.json
+ ```
+...
+"repositories": [
+      {
+          "type": "git",
+          "url": "https://github.com/appswithlove/statamic-extended_section.git"
+      }
+  ],
+...
+  
+```
+  
+  2. Require a package 
+  ```composer require appswithlove/statamic-extended_section:dev-v3```
