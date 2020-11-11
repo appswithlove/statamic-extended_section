@@ -30,4 +30,4 @@ Statamic sections on steroids
 ```
   
   2. Require a package 
-  ```composer require appswithlove/statamic-extended_section:dev-v3```
+  ```composer require appswithlove/extended-section:dev-v3```
