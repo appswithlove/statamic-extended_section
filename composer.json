@@ -1,6 +1,8 @@
 {
-  "name": "appswithlove/extended-section",
-  "description": "Extended section",
+  "name": "appswithlove/statamic-extended-section",
+  "license": "MIT",
+  "type": "statamic-addon",
+  "description": "Extended sections for statamic v3",
   "autoload": {
     "psr-4": {
       "AppsWithLove\\Statamic\\ExtendedSection\\": "src"
