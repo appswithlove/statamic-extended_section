@@ -11,6 +11,9 @@
       "name": "Rémy Böhler"
     }
   ],
+  "require": {
+    "statamic/cms": "~3.1.7 || 3.2.*"
+  },
   "extra": {
     "statamic": {
       "name": "Extended section",

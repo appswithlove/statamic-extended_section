@@ -6,11 +6,3 @@
 Statamic sections on steroids
 
 ![Extended Section](./screenshot.png)
-
-## Adding a new color to the addon
-
- 1. **Stylesheet**  
-    Open `resources/assets/css/cp.css` and add the new background style.
-
- 2. **Update the fieldtype configuration**  
-    Open `src/Fieldtypes/ExtendedSectionFieldtype.php` and append the new color to the background options.

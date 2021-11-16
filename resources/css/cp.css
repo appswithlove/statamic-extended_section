@@ -7,12 +7,10 @@
   margin-top: 10px!important;
 }
 
-
 /**
  * Background color
  * Based on the material [design color palette](https://material.google.com/style/color.html#color-color-palette)
  */
-
 .extended_section-fieldtype.color-red {
   background: #FFCDD2;
 }
@@ -79,7 +77,6 @@
   padding: 30px 15px 5px 20px!important;
 }
 
-
 .extended_section-fieldtype.color-rainbow {
   color: white;
   background: #282828;
@@ -88,12 +85,9 @@
   padding: 30px 15px 5px 20px!important;
 }
 
-
-
 /**
  * Text color
  */
-
 .extended_section-fieldtype label,
 .extended_section-fieldtype .help-block {
   color: inherit;
