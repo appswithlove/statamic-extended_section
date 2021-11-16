@@ -6,6 +6,8 @@ use Statamic\Fieldtypes\Section;
 
 class ExtendedSectionFieldtype extends Section
 {
+    protected $icon = 'section';
+
     protected function configFieldItems(): array
     {
         return [
