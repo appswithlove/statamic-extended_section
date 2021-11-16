@@ -85,6 +85,11 @@
   padding: 14px; /* reduce padding by the amount of border added */
 }
 
+.extended_section-fieldtype.color-danger .help-block,
+.extended_section-fieldtype.color-rainbow .help-block {
+  margin-bottom: 8px;
+}
+
 /**
  * Text color
  */
