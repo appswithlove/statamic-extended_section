@@ -12,7 +12,7 @@ class ExtendedSectionFieldtype extends Section
     {
         return [
             'background' => [
-                'display' => __('Background'),
+                'display' => __('statamic-charfield::fieldtypes.background'),
                 'type' => 'select',
                 'default' => 'grey',
                 'options' => [
