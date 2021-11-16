@@ -4,4 +4,4 @@
 
 Statamic sections on steroids
 
-![Extended Section](https://raw.githubusercontent.com/appswithlove/statamic-extended_section/master/screenshot.png)
+![Extended Section](https://raw.githubusercontent.com/appswithlove/statamic-extended_section/master/screenshot-v3.png)
