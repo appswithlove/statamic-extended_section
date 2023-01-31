@@ -1,0 +1,5 @@
+<?php
+
+return [
+    'background' => 'Fond',
+];
