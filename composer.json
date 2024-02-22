@@ -2,7 +2,7 @@
   "name": "appswithlove/statamic-extended-section",
   "license": "MIT",
   "type": "statamic-addon",
-  "description": "Extended sections for statamic v3",
+  "description": "Extended sections for statamic v3 and v4",
   "autoload": {
     "psr-4": {
       "AppsWithLove\\Statamic\\ExtendedSection\\": "src"
@@ -14,7 +14,7 @@
     }
   ],
   "require": {
-    "statamic/cms": "~3.1.7 || 3.2.* || 3.3.* || 3.4.*"
+    "statamic/cms": "~3.1.7 || 3.2.* || 3.3.* || 3.4.* || ^4.0"
   },
   "extra": {
     "statamic": {
