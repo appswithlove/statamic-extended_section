@@ -8,7 +8,7 @@ use Statamic\Providers\AddonServiceProvider;
 class ServiceProvider extends AddonServiceProvider
 {
     protected $scripts = [
-        __DIR__.'/../resources/js/fieldtype.js',
+        __DIR__.'/../resources/js/fieldtype.js'
     ];
 
     protected $stylesheets = [

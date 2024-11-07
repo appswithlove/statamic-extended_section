@@ -6,14 +6,14 @@ use Statamic\Fieldtypes\Section;
 
 class ExtendedSectionFieldtype extends Section
 {
-    protected $icon = 'section';
+protected $icon = 'section';
 
     protected function configFieldItems(): array
     {
         return [
             'background' => [
                 'display' => __('statamic-charfield::fieldtypes.background'),
-                'type' => 'select',
+                'type' => "select",
                 'default' => 'grey',
                 'options' => [
                     'grey' => 'default',
