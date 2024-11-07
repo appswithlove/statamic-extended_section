@@ -32,7 +32,7 @@ class ExtendedSectionFieldtype extends Section
                     'stripes' => 'Grey Stripes',
                     'danger' => 'Danger',
                     'rainbow' => 'Rainbow',
-                ]
+                ],
             ],
         ];
     }
