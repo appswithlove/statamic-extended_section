@@ -30,6 +30,7 @@ class ExtendedSectionFieldtype extends Section
                     'black' => 'Black',
                     'carbon' => 'Carbon',
                     'stripes' => 'Grey Stripes',
+                    'another' => 'Foo Bar',
                     'danger' => 'Danger',
                     'rainbow' => 'Rainbow',
                 ],
