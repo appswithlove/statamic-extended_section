@@ -1,28 +1,30 @@
-/** global: Vue */
+Statamic.booting(() => {
+  Statamic.$components.register('extended_section-fieldtype', {
+        props: ['data', 'config', 'name'],
 
-Statamic.$components.register('extended_section-fieldtype', {
-    props: ['data', 'config', 'name'],
-
-    mounted: function () {
-        // find container parent
-        var container = this.$el.parentNode;
-        while (!container.classList || !container.classList.contains('form-group')) {
+        mounted: function() {
+          // find container parent
+          var container = this.$el.parentNode;
+          while (!container.classList ||
+          !container.classList.contains('form-group')) {
             container = container.parentNode;
 
             if (!container) {
-                break;
+              break;
             }
-        }
+          }
 
-        if (container) {
+          if (container) {
             // we add the original section class to inherit all the styles
             container.classList.add('section-fieldtype');
 
             // and add our color
             var background = this.config.background;
             if (background) {
-                container.classList.add('color-' + background);
+              container.classList.add('color-' + background);
             }
-        }
-    }
+          }
+        },
+      },
+  );
 });

@@ -2,11 +2,11 @@
 
 namespace AppsWithLove\Statamic\ExtendedSection\Fieldtypes;
 
-use Statamic\Fieldtypes\Section;
+use Statamic\Fields\Fieldtype;
 
-class ExtendedSectionFieldtype extends Section
+class ExtendedSectionFieldtype extends Fieldtype
 {
-    protected $icon = 'section';
+    protected $icon = 'fieldtype-section';
 
     protected function configFieldItems(): array
     {

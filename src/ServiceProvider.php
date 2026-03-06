@@ -18,4 +18,11 @@ class ServiceProvider extends AddonServiceProvider
     protected $fieldtypes = [
         ExtendedSectionFieldtype::class,
     ];
+
+    public function boot()
+    {
+        parent::boot();
+
+        $this->loadTranslationsFrom(__DIR__.'/../resources/lang', 'statamic-charfield');
+    }
 }
